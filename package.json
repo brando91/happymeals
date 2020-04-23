@@ -1,24 +1,37 @@
 {
   "name": "happymeals",
-  "version": "1.0.0",
-  "description": "HappyMeals for better eating",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-popper": "^2.2.2",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1"
+  },
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"lite": "lite-server"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brando91/happymeals.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Brando Preda",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brando91/happymeals/issues"
-  },
-  "homepage": "https://github.com/brando91/happymeals#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
