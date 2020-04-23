@@ -1,0 +1,24 @@
+{
+  "name": "happymeals",
+  "version": "1.0.0",
+  "description": "HappyMeals for better eating",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brando91/happymeals.git"
+  },
+  "author": "Brando Preda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brando91/happymeals/issues"
+  },
+  "homepage": "https://github.com/brando91/happymeals#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
