@@ -24,6 +24,6 @@ jobs:
     - name: Set Up
       run: npm install
     - name: Build
-      run: yarn build
+      run: CI=false yarn build
     - name: Test
       run: yarn test
