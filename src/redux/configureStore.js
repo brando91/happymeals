@@ -1,11 +1,8 @@
 import {createStore} from "redux";
-import {Reducer, initialState} from "./reducer";
+import {rootReducer, initialState} from "./happinessReducer";
 
 export const ConfigureStore = () => {
-    const store = createStore(
-        Reducer,
-        initialState
-    );
+    const store = createStore(rootReducer);
     
     return store;
 };
